@@ -14,7 +14,7 @@ header{
     border: 2px solid lightseagreen;
     opacity: 0.8;
     width: 80%;
-    height: 70px;
+    height: 80px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ header{
 }
 main{
     width: 80%;
-    height: 350px;
+    height: 400px;
     opacity: 0.95;
 }
 form{
