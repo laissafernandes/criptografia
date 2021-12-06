@@ -1,0 +1,104 @@
+body{
+    background: url("./criptografia.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 2px solid lightseagreen;
+    opacity: 0.8;
+    width: 80%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+    width: 80%;
+    height: 350px;
+    opacity: 0.95;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    color: navy;
+    text-align: center;
+    font-family:monospace;
+}
+.corpo-style{
+    background-color: lightskyblue;
+    border: 2px solid lightskyblue;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+    
+}
+.style1{
+    color: navy;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.style2{
+    color: navy;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    display: none;
+    
+}
+
+
+.style3{
+    color: navy;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.style4{
+    color:navy;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    
+}
+.result{
+    color:navy;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px; 
+}
+
+#submit{
+   color: navy;
+   font-size: 20px;
+   font-family: monospace;
+   background: oldlace;
+   border: 1px solid oldlace;
+   border-radius: 10px;
+   
+}
+@media (max-width:1000px) {
+    body{
+        background: navy;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

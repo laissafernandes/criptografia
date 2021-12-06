@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Criptografia</title>
+</head>
+<body>
+    <header>
+        <h1>Criptografia</h1>
+    </header>
+
+    <main class="corpo-style">
+        <form>
+            <div id="escolher" class="style1">
+                <label for="mensagem-principal">Escolha qual criptografia deseja utilizar</label><br>
+                <br>
+            <select id="selecionar">
+                <option value="vazio">--Escolha aqui--</option>
+                <option value="cifradecesar">Cifra de César</option>
+                <option value="base64">Base 64</option>
+            </select>
+            </div>
+
+            <div id="cifra-de-cesar" class="style2">
+                <label for="cifradecesar" class="passosdecesar">
+                    Quantos passos deseja?<br>
+                </label>
+                <input type="number" name="cifradecesar" id="numbercifradecesar" placeholder="digite-um-número">
+            </div>
+
+            <div id="mensagem" class="style3">
+                <textarea name="mensagem" id="mensage" placeholder="digite-sua-mensagem"></textarea>           
+                </textarea>
+                
+            </div>
+
+            <div id="radio-cod" class="style4">
+                <label for="radio-codificar">
+                    Codificar
+                </label>
+                <input type="radio" id="codificar" name="codificar" value="Codificar">
+
+                <label for="radio-decod">
+                    Decodificar
+                </label>
+                <input type="radio" id="decodificar" name="codificar" value="Descodificar">
+                <br>
+            </div>
+                <br>
+            <label for="resultado" class="result">Resultado</label>
+            
+            <div id="resultadocifrado">
+                <p id="presultado"></p>
+            </div>          
+            
+
+            <div class="botao">
+           
+            <input type="submit" value="Enviar Mensagem" id="submit">
+            </div>
+        </form>
+        
+
+
+
+
+
+    </main>
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
